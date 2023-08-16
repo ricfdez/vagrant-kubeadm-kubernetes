@@ -8,7 +8,7 @@ sudo mkdir -p /etc/vbox/
 echo "* 0.0.0.0/0 ::/0" | sudo tee -a /etc/vbox/networks.conf
 ```
 
-export ``` KUBECONFIG=/Users/rfernandez/GIT/vagrant-kubeadm-kubernetes/configs/config ```
+``` export KUBECONFIG=/Users/rfernandez/GIT/vagrant-kubeadm-kubernetes/configs/config ```
 
 
 ## Documentation
