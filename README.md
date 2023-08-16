@@ -1,6 +1,16 @@
 
 # Vagrantfile and Scripts to Automate Kubernetes Setup using Kubeadm [Practice Environment for CKA/CKAD and CKS Exams]
 
+## Quick setup
+
+```shell
+sudo mkdir -p /etc/vbox/
+echo "* 0.0.0.0/0 ::/0" | sudo tee -a /etc/vbox/networks.conf
+```
+
+export ``` KUBECONFIG=/Users/rfernandez/GIT/vagrant-kubeadm-kubernetes/configs/config ```
+
+
 ## Documentation
 
 Current k8s version for CKA, CKAD, and CKS exam: 1.27

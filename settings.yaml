@@ -1,6 +1,6 @@
 ---
 # cluster_name is used to group the nodes in a folder within VirtualBox:
-cluster_name: Kubernetes Cluster
+cluster_name: Kubernetes Cluster - RIC
 # Uncomment to set environment variables for services such as crio and kubelet.
 # For example, configure the cluster to pull images via a proxy.
 # environment: |
@@ -21,7 +21,7 @@ nodes:
     cpu: 2
     memory: 4096
   workers:
-    count: 1
+    count: 2
     cpu: 1
     memory: 2048
 # Mount additional shared folders from the host into each virtual machine.
